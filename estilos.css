@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    font-family: "Indie Flower", cursive;
+}
+
+
+
+body{
+    background: rgb(240,193,225);
+    background: linear-gradient(90deg, rgba(240,193,225,1) 0%, rgba(253,219,187,1) 45%, rgba(255,249,191,1) 100%);
+}
+.myEmociones{
+    background: rgb(203,157,240);
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    margin: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.myEmociones:hover{
+    background-color: rgb(255,227,227);
+    color: red;
+    padding: 20px;
+}
+.infoemoc{
+    background: rgb(228,224,225);
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(165, 91, 165);
+    margin: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.infoemoc:hover{
+    background-color: rgb(255,176,176);
+    color: rgb(107, 8, 201);
+    padding: 20px;
+}
+.emoji{
+    background: rgb(165,148,249);
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(229,217,242);
+    margin: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.emoji:hover{
+    background-color: rgb(137,103,179);
+    color: rgb(245,239,255);    
+}
+p{
+    font-size: 1rem;
+    color: #624E88;
+}  
+.elTitulo{
+    font-family: "Indie Flower", cursive;
+    font-size: 2rem;
+    color: blueviolet;
+} 
